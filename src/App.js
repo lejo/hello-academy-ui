@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import ProductItem from './ProductItem';
+import FormComponent from './FormComponent';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <h1>List of products</h1>
       <table className="ProductTable">
         <thead>
           <th>Title</th>
@@ -45,6 +47,9 @@ function App() {
         ))}
         </tbody>
       </table>
+
+      <br/>
+      <FormComponent />
       </header>
     </div>
   );
