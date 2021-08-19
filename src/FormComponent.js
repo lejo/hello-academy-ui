@@ -14,17 +14,6 @@ function FormComponent() {
     const onPriceChange = e => setPrice(e.target.value);
 
 
-    // const useCounter = () => {
-    //     const [count, setCount] = useState(0);
-    //     const inc = useCallback(() => setCount(c => c + 1), []);
-    //     const dec = useCallback(() => setCount(c => c - 1), []);
-    //     return {
-    //       count,
-    //       inc,
-    //       dec
-    //     };
-    //   };
-
     const handleSubmit = (e) => {
         e.preventDefault();
         setAddButton(true);
@@ -40,7 +29,7 @@ function FormComponent() {
             .then(res => {
                 console.log("RES",res);
         });
-        // window.location.reload();
+        window.location.reload();
       };
 
     return(

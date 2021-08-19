@@ -41,3 +41,8 @@
   width: 80%;
   border: 1px solid #FFF;
 }
+
+.rows {
+  /* border: 1px solid #FFF; */
+  background-color: rgb(83, 81, 81);
+}

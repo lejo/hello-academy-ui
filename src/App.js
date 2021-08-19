@@ -9,6 +9,7 @@ function App() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
+  const [newItems, setNewItems] = useState([])
 
   // Note: the empty deps array [] means
   // this useEffect will run once
